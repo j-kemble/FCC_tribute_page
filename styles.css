@@ -1,0 +1,54 @@
+* {
+    font-family: verdana, sans serif;
+    background-color: #e6e6e4;
+  }
+  
+  header {
+    display: block;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding: 50 0 50 0;
+  }
+  
+  img {
+    display: block;
+    justify-content: center;
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0 0 50 0;
+  }
+  
+  #img-caption p {
+    display: block;
+    text-align: center;
+    padding-bottom: 75px
+  }
+  
+  #tribute-info {
+    display: block;
+    text-align: left;
+  }
+  
+  li {
+    padding: 15px;
+    display: block;
+    justify-content: center;
+    width: 60%;
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+  }
+  
+  #tribute-info p {
+    display: block;
+    justify-content: center;
+    width: 60%;
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+  }

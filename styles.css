@@ -10,9 +10,13 @@
     text-align: center;
     padding: 50 0 50 0;
   }
+
+  header p {
+    margin-bottom: 7rem;
+  }
   
   img {
-    display: block;
+    display: flex;
     justify-content: center;
     width: 300px;
     max-width: 100%;
@@ -21,23 +25,36 @@
     padding: 0 0 50 0;
   }
   
-  #img-caption p {
-    display: block;
+  #img-caption {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    padding-bottom: 75px
+    padding-bottom: 75px;
+    width: 100%;
+  }
+
+  #img-caption p {
+    width: 80%;
+    margin-top: 1rem;
   }
   
   #tribute-info {
     display: block;
     text-align: left;
   }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: block;
+    justify-content: center;
+  }
   
   li {
     padding: 15px;
     display: block;
     justify-content: center;
-    width: 60%;
-    max-width: 600px;
+    width: 80%;
     height: auto;
     margin: auto;
   }
@@ -45,10 +62,9 @@
   #tribute-info p {
     display: block;
     justify-content: center;
-    width: 60%;
-    max-width: 600px;
+    width: 80%;
     height: auto;
-    margin: auto;
+    margin: 1rem auto;
     text-align: center;
     padding: 5px;
   }
